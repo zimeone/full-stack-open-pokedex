@@ -30,6 +30,7 @@ const App = () => {
     <Router>
       <Switch>
         <Route exact path="/">
+          <h1>Pokedex</h1>
           <PokemonList pokemonList={pokemonList} />
           <div>That&apos;s all folks / Siinä kaikki</div>
         </Route>
