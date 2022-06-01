@@ -32,6 +32,7 @@ const App = () => {
         <Route exact path="/">
           <PokemonList pokemonList={pokemonList} />
           <div>That&apos;s all folks / Siinä kaikki</div>
+          {/* turha kommentti  */}
         </Route>
         <Route
           path="/pokemon/:name"
