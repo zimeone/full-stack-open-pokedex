@@ -31,7 +31,7 @@ const App = () => {
       <Switch>
         <Route exact path="/">
           <PokemonList pokemonList={pokemonList} />
-          <div>That's all folks</div>
+          <div>That&apos;s all folks</div>
         </Route>
         <Route
           path="/pokemon/:name"
